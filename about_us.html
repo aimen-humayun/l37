@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <style>
+        .pimg1, .pimg2, .pimg3{
+            position:relative;
+            opacity:0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        .pimg1{
+            background-image: url('https://th.bing.com/th/id/R.777a1b03f06b923b60a3319b0c7c97a9?rik=I4mbdExAhRpjSg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fCRU7lJc.jpg&ehk=CadS1BEwisMTTYrGWoZBIQzA0Xtnfi%2bjTo8INnIRW50%3d&risl=&pid=ImgRaw&r=0');
+            min-height: 100%;
+        }
+        .pimg2{
+            background-image: url('https://th.bing.com/th/id/R.777a1b03f06b923b60a3319b0c7c97a9?rik=I4mbdExAhRpjSg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fCRU7lJc.jpg&ehk=CadS1BEwisMTTYrGWoZBIQzA0Xtnfi%2bjTo8INnIRW50%3d&risl=&pid=ImgRaw&r=0');
+            min-height: 400px;
+        }
+        .pimg3{
+            background-image: url('https://th.bing.com/th/id/R.777a1b03f06b923b60a3319b0c7c97a9?rik=I4mbdExAhRpjSg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fCRU7lJc.jpg&ehk=CadS1BEwisMTTYrGWoZBIQzA0Xtnfi%2bjTo8INnIRW50%3d&risl=&pid=ImgRaw&r=0');
+            min-height: 400px;
+        }
+        .section{
+            text-align: center;
+            padding: 50px 80px;
+        }
+        .section-light{
+            background-color: #f4f4f4;
+            color: #666;
+        }
+        .section-dark{
+            background-color: #282e34;
+            color: #ddd;
+        }
+        .ptext{
+            position:absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: #000;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+        .ptext .border{
+            background-color: #111;
+            color:#fff;
+            padding:20px;
+        }
+        .ptext .border.trans{
+            background-color: transparent;
+        }
+        @media(max-width:68px){
+            .pimg, .pimg2, .pimg3{
+                background-attachment: scroll;
+            }
+        }
+        .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<span class="border trans" style="font-size: 40px;">
+    <center>Welcome all to this website</center>
+</span>><br>
+<section class="section section-dark">
+    <h2>Section One</h2>
+    <p>
+        Web development is the work involved in developing a website for the internet (World Wide Web (www)) or an intranet (a private network).
+    </p>
+</section>
+<div class="pimg3">
+    <div class="ptext">
+        <span class="border trans">
+            Image Two Text
+        </span>
+    </div>
+</div>
+    <div class="footer">
+        <p>@copy all rights and reserved</p>
+    </div>
+</body>
+</html>
